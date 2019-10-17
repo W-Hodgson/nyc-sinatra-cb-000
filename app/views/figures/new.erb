@@ -10,7 +10,7 @@
 
       <p>Titles</p> <br>
       <% @titles.each do |title|%>
-        <input type="checkbox" name="figure[title_ids][]" id="<%= title.id %>" value="<%= title.id %>"><%= %> <br>
+        <input type="checkbox" name="figure[title_ids][]" id="<%= title.id %>" value="<%= title.id %>"><%= title.name %> <br>
       <% end %>
 
       <input type="submit" name="" value="Create Figure">
