@@ -1,5 +1,5 @@
 class CreateTitles < ActiveRecord::Migration
   def change
-    create_table
+    create_table :titles
   end
 end
