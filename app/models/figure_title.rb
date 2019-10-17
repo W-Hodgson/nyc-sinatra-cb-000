@@ -1,5 +1,5 @@
 class FigureTitle < ActiveRecord::Base
-  def change 
+  def change
 
-end
+  end
 end
