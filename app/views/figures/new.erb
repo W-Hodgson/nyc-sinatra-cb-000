@@ -8,7 +8,7 @@
     <form action="/figures" method="post">
       <p>Name: <input type="text" name="figure[name]" value=""></p>
 
-      <p>Titles</p> <br>
+      <h3>Titles</h3> <br>
       <% @titles.each do |title|%>
         <input type="checkbox" name="figure[title_ids][]" id="<%= title.id %>" value="<%= title.id %>"><%= title.name %> <br>
       <% end %>
