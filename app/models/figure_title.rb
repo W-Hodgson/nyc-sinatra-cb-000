@@ -1,3 +1,5 @@
 class FigureTitle < ActiveRecord::Base
-  # add relationships here
+  change def
+
+end
 end
