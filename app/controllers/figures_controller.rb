@@ -7,7 +7,7 @@ class FiguresController < ApplicationController
   end
 
   post '/figures' do
-
+    puts params
   end
 
 end
