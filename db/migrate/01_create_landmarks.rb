@@ -1,5 +1,5 @@
 class CreateLandmarks < ActiveRecord::Migration
-  change do
+  def change
 
   end
 end
